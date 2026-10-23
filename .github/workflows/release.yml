@@ -53,3 +53,4 @@ jobs:
         with:
           files: opencv2.xcframework.zip
           tag_name: ${{ steps.get_version.outputs.VERSION }}
+          target_commitish: ${{ github.ref_name }}
